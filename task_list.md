@@ -1,0 +1,18 @@
+| 题号 | 输入文件 | 统计方法 | 图表类型 | 输出文件名 | 验收标准 |
+|---|---|---|---|---|---|
+| Q1 | [output/cleaned_data.csv](output/cleaned_data.csv) | 对 Q1 单选项做频数统计、频率统计；缺失值自动剔除，并在图注或统计说明中标明有效样本量 n | 条形图 + 饼图合图 | output/desc_q1.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；条形图与饼图统计口径一致；频数合计等于有效样本量；文件成功保存 |
+| Q2 | [output/cleaned_data.csv](output/cleaned_data.csv) | 对 Q2 单选项做频数统计、频率统计；缺失值自动剔除，并在图注或统计说明中标明有效样本量 n | 条形图 + 饼图合图 | output/desc_q2.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；条形图与饼图统计口径一致；频数合计等于有效样本量；文件成功保存 |
+| Q4 | [output/cleaned_data.csv](output/cleaned_data.csv) | 对 Q4 单选项做频数统计、频率统计；缺失值自动剔除，并在图注或统计说明中标明有效样本量 n | 条形图 + 饼图合图 | output/desc_q4.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；条形图与饼图统计口径一致；频数合计等于有效样本量；文件成功保存 |
+| Q5 | [output/cleaned_data.csv](output/cleaned_data.csv) | 对 Q5 单选项做频数统计、频率统计；缺失值自动剔除，并在图注或统计说明中标明有效样本量 n | 条形图 + 饼图合图 | output/desc_q5.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；条形图与饼图统计口径一致；频数合计等于有效样本量；文件成功保存 |
+| Q3 | [output/multi_choice_binary.csv](output/multi_choice_binary.csv) | 对 Q3 对应 0/1 宽表列逐列求和，计算各选项选择人数与选择率；如有全空行自动剔除，并标明有效样本量 n | 水平条形图 | output/desc_q3.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；横轴为选择率或选择人数且标注清晰；各选项统计来自 Q3 对应列；文件成功保存 |
+| Q7 | [output/multi_choice_binary.csv](output/multi_choice_binary.csv) | 对 Q7 对应 0/1 宽表列逐列求和，计算各选项选择人数与选择率；如有全空行自动剔除，并标明有效样本量 n | 水平条形图 | output/desc_q7.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；横轴为选择率或选择人数且标注清晰；各选项统计来自 Q7 对应列；文件成功保存 |
+| Q8 | [output/multi_choice_binary.csv](output/multi_choice_binary.csv) | 对 Q8 对应 0/1 宽表列逐列求和，计算各选项选择人数与选择率；如有全空行自动剔除，并标明有效样本量 n | 水平条形图 | output/desc_q8.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；横轴为选择率或选择人数且标注清晰；各选项统计来自 Q8 对应列；文件成功保存 |
+| Q11 | [output/multi_choice_binary.csv](output/multi_choice_binary.csv) | 对 Q11 对应 0/1 宽表列逐列求和，计算各选项选择人数与选择率；如有全空行自动剔除，并标明有效样本量 n | 水平条形图 | output/desc_q11.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；横轴为选择率或选择人数且标注清晰；各选项统计来自 Q11 对应列；文件成功保存 |
+| Q12 | [output/multi_choice_binary.csv](output/multi_choice_binary.csv) | 对 Q12 对应 0/1 宽表列逐列求和，计算各选项选择人数与选择率；如有全空行自动剔除，并标明有效样本量 n | 水平条形图 | output/desc_q12.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；横轴为选择率或选择人数且标注清晰；各选项统计来自 Q12 对应列；文件成功保存 |
+| Q13 | [output/multi_choice_binary.csv](output/multi_choice_binary.csv) | 对 Q13 对应 0/1 宽表列逐列求和，计算各选项选择人数与选择率；如有全空行自动剔除，并标明有效样本量 n | 水平条形图 | output/desc_q13.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；横轴为选择率或选择人数且标注清晰；各选项统计来自 Q13 对应列；文件成功保存 |
+| Q9 | [output/cleaned_data.csv](output/cleaned_data.csv) | 提取 Q9 的 10 个李克特维度，计算各维度均值、标准差与 1-5 分分布；缺失值按维度自动剔除，并在图注或说明中标明各维度有效样本量或总体有效样本量 | 雷达图 + 箱线图合图 | output/desc_q9.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；雷达图展示 10 个维度均值；箱线图展示同 10 个维度分布；量表范围保持 1-5；文件成功保存 |
+| Q10 | [output/cleaned_data.csv](output/cleaned_data.csv) | 提取 Q10 的 5 个评价主体，计算各主体平均权重；如存在缺失或异常行，自动剔除并标明有效样本量 n | 堆积条形图 | output/desc_q10.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；5 个主体均显示；均值权重总和应接近 100；图例清晰；文件成功保存 |
+| Q6 | [output/q6_ranked.csv](output/q6_ranked.csv) | 按第1选×3、第2选×2、第3选×1 计算各选项加权总分，并统计排序结果；缺失顺位自动跳过并标明有效样本量 n | 柱状图 | output/desc_q6.png | 图中中文正常显示；使用 Seaborn muted 调色盘；DPI ≥ 300；加权规则实现正确；各选项柱高对应总分；排序结果清晰；文件成功保存 |
+| 汇总 | [output/cleaned_data.csv](output/cleaned_data.csv)、[output/multi_choice_binary.csv](output/multi_choice_binary.csv)、[output/q6_ranked.csv](output/q6_ranked.csv) | 汇总各题描述统计结果，包括题号、选项/维度、频数、频率、选择率、均值、加权分、有效样本量等适用字段 | 结果汇总表 | output/descriptive_summary.csv | 文件成功生成；包含 Q1、Q2、Q3、Q4、Q5、Q6、Q7、Q8、Q9、Q10、Q11、Q12、Q13 的描述统计；字段命名清晰；统计口径与各图一致；缺失处理和有效样本量可追溯 |
+
+补充约束已纳入所有任务的验收标准：绘图脚本需包含 matplotlib 中文字体设置、统一使用 Seaborn muted 调色盘、所有图片 DPI 不低于 300、并对缺失数据自动剔除或明确标注有效样本量。
